@@ -5,7 +5,7 @@ export interface Cryptocurr extends Document {
     coin:string,
     price:number,
     marketCap:number,
-    change24h:number,
+    "24hChange":number,
     timestamp:Date
 }
 
@@ -14,7 +14,7 @@ const CryptoSchema: Schema = new Schema({
     coin: { type: String, required: true },
     price: { type: Number, required: true },
     marketCap: { type: Number, required: true },
-    change24h: { type: Number, required: true },
+    "24hChange": { type: Number, required: true },
     timestamp: { type: Date, default: Date.now },
   });
 

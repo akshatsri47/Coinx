@@ -1,1 +1,1 @@
-{"root":["./src/server.ts","./src/types.d.ts","./src/config/db.ts","./src/config/env.ts","./src/job/fetchcrypto.ts","./src/model/crypto.ts"],"version":"5.7.3"}
+{"root":["./src/server.ts","./src/types.d.ts","./src/config/db.ts","./src/config/env.ts","./src/job/fetchcrypto.ts","./src/middleware/deviatecontroller.ts","./src/middleware/statcontroller.ts","./src/model/crypto.ts","./src/routes/routes.ts"],"version":"5.7.3"}

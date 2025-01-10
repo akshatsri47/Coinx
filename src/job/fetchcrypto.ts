@@ -37,7 +37,7 @@ const getCryptoData = async (): Promise<void> => {
           coin,
           price,
           marketCap,
-          change24h,
+          "24hChange": change24h,
         });
 
         console.log(`Data for ${coin}:`, coinData);

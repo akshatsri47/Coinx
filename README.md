@@ -40,9 +40,9 @@ This project is a server-side application that uses **Node.js** and **MongoDB** 
 
 Create a .env file in the project root with the following content:
 
-MONGO_URI=mongodb://localhost:27017/crypto
-COINGECKO_API=https://api.coingecko.com/api/v3
-PORT=3000
+-**MONGO_URI**=mongodb://localhost:27017/crypto
+-**COINGECKO_API**=https://api.coingecko.com/api/v3
+-**PORT**=3000
 
 
 
